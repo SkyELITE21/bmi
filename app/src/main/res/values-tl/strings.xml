@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+	<string name="height">Taas: (naka meters)</string>
+	<string name="weight">Bigat: (naka kilograms)</string>
+	<string name="bmi">Resulta:</string>
+	<string name="calculate">Kalkulahin</string>
+	<string name="developer">Manuel Jhon G. Santos</string>
+	<string name="company">SkyELITE21</string>
+	<string name="about_label">Patungkol</string>
+	<string name="about_desc">Ang BMI o Body Mass Index ay isang paraan \n
+upang malaman kung ang isang indibidwal ay malusog! \n
+Ang aplikasyong ito ay kinakalkula ang BMI.</string>
+	<string name="developed_by">Idinebelop ni: </string>
+	<string name="classification">Uri:</string>
+	<string name="no_bmi">Walang BMI!</string>
+	<string name="kids_teens_mode">Para sa Pambata at Binata o Dalaga:</string>
+	<string name="eula_title">END USER LICENSE AGREEMENT</string>
+	<string name="gender_female">Babae:</string>
+	<string name="gender_male">Lalaki:</string>
+	<string name="age">Gulang: (2 - 20 taong gulang lamang!)</string>
+	<string name="settings_label">Mga Setting</string>
+	<string name="exit">Tapusin</string>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:gravity="top|center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:text="@string/company"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textSize="40sp"
+				android:textColor="#00BAFF"/>
+
+			<Space
+				android:layout_height="100dp"
+				android:layout_width="match_parent"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="@string/app_name"
+				android:typeface="serif"
+				android:textSize="30sp"
+				android:textStyle="bold"
+				android:textColor="#00C8F4"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/version"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textColor="#5700FF"
+				android:id="@+id/cVersion"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/developed_by"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textColor="#00FF03"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/developer"
+				android:typeface="serif"
+				android:textStyle="bold"
+				android:textColor="#C3FC00"/>
+
+			<Space
+				android:layout_height="100dp"
+				android:layout_width="match_parent"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:text="@string/about_desc"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textColor="#002AFF"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Switch
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="@string/kids_teens_mode"
+		android:id="@+id/kidsTeensMode"
+		android:typeface="monospace"
+		android:textSize="20sp"
+		android:textStyle="bold"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/eula_title"
+		android:gravity="left|center"
+		android:id="@+id/eulaButton"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/feedback_support_button"
+		android:gravity="left|center"
+		android:id="@+id/feedbackSupport"/>
+
+</LinearLayout>
+

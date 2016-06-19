@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="@string/feedback_support"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textColor="#28F500"/>
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="100dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="@string/message_type"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:layout_gravity="left"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<RadioButton
+			android:id="@+id/feedbackRadio"
+			android:hint="@string/feedback_radio"
+			android:typeface="monospace"
+			android:textStyle="bold"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/reviewRadio"
+			android:hint="@string/review_radio"
+			android:typeface="monospace"
+			android:textStyle="bold"/>
+
+	</RadioGroup>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/subjectText"
+		android:hint="@string/subject_title"
+		android:typeface="monospace"
+		android:textStyle="bold"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:id="@+id/meSsage"
+		android:hint="@string/message_title"
+		android:typeface="monospace"
+		android:textStyle="bold"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/sendButton"
+		android:text="@string/send_button"
+		android:typeface="monospace"
+		android:textStyle="bold"/>
+
+</LinearLayout>
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="@string/app_name"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:textColor="#0084FF"
+			android:textSize="30sp"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number|numberDecimal"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="@string/height"
+			android:id="@+id/kidsTeensHeight"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:typeface="monospace"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number|numberDecimal"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="@string/weight"
+			android:id="@+id/kidsTeensWeight"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:typeface="monospace"/>
+
+		<RadioGroup
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/kidsTeensRadioGroup">
+
+			<RadioButton
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:hint="@string/gender_male"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:id="@+id/genderMale"/>
+
+			<RadioButton
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:hint="@string/gender_female"
+				android:typeface="monospace"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:id="@+id/genderFemale"/>
+
+		</RadioGroup>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="@string/age"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:id="@+id/kidsTeensAge"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="50dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/calculate"
+			android:id="@+id/kidsTeensCalculate"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="50dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:gravity="top"
+			android:textSize="30sp"
+			android:id="@+id/kidsTeensResult"
+			android:text="@string/bmi"
+			android:typeface="monospace"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:id="@+id/kidsTeensType"
+			android:textSize="30sp"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:text="@string/classification"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

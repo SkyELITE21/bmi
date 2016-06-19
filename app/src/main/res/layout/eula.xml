@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="top|center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:text="@string/eula_title"
+				android:typeface="monospace"
+				android:textSize="30sp"
+				android:textStyle="bold"
+				android:textColor="#18FF00"/>
+
+			<Space
+				android:layout_width="match_parent"
+				android:layout_height="100dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/eula_note"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:textColor="#FF1001"/>
+
+			<Space
+				android:layout_width="match_parent"
+				android:layout_height="50dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/eula"
+				android:typeface="monospace"
+				android:textStyle="bold"/>
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/acceptCheckBox"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:hint="@string/accept_checkbox"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/continue_button"
+				android:typeface="monospace"
+				android:textStyle="bold"
+				android:id="@+id/continueButton"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

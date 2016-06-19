@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="top|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="@string/app_name"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:textColor="#0084FF"
+			android:textSize="30sp"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="100dp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number|numberDecimal"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="@string/height"
+			android:id="@+id/height"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="50dp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number|numberDecimal"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="@string/weight"
+			android:id="@+id/weight"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="50dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/calculate"
+			android:id="@+id/calculate"/>
+
+		<Space
+			android:layout_width="match_parent"
+			android:layout_height="50dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:gravity="top"
+			android:textSize="30sp"
+			android:id="@+id/result"
+			android:text="@string/bmi"
+			android:typeface="monospace"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:id="@+id/classification"
+			android:textSize="30sp"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:text="@string/classification"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

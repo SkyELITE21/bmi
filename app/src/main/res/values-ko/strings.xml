@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">비 음 아이</string>
+	<string name="height">높이 ( 미터 )</string>
+	<string name="weight">무게 ( 킬로그램 )</string>
+	<string name="bmi">결과:</string>
+	<string name="calculate">계산하다</string>
+	<string name="about_label">약</string>
+	<string name="about_desc">체질량 지수 또는 체질량 지수 측정 의 유형입니다 \n
+		즉 개별 가 정상 인지 아닌지 를 측정 하는 데 사용되는 ! \n
+		이 응용 프로그램은 BMI 를 계산한다.</string>
+	<string name="developed_by">에 의해 개발 :</string>
+	<string name="developer">Manuel Jhon G. Santos</string>
+	<string name="company">SkyELITE21</string>
+	<string name="classification"></string>
+	<string name="no_bmi"></string>
+
+</resources>

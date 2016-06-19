@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/About"
+        android:title="@string/about_label"
+		android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/about"/>
+	
+	<item
+		android:id="@+id/Settings"
+		android:title="@string/settings_label"
+		android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/settings"/>
+	
+	<item
+		android:id="@+id/Exit"
+		android:title="@string/exit"
+		android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/exit"/>
+    
+</menu>
